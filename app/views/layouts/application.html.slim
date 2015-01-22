@@ -12,7 +12,7 @@ html
     header.main_header.clearfix
       .wrapper
         #logo
-          p Forum
+          p = link_to Forum, root_path
         #buttons
           =link_to "New Post", new_post_path
 
